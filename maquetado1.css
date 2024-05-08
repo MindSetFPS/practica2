@@ -1,0 +1,61 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    width: 1000px;
+}
+
+.nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: green;
+}
+
+.box {
+    background-color: aliceblue;
+    width: 150px; 
+    height: 80px;
+    border-style: solid;
+}
+.header {
+    height: 300px;
+    background-color: cornflowerblue;
+    display: flex;
+}
+
+.section {
+    width: 200px;
+}
+
+.subsection {
+    height: 100px;
+    background-color: aliceblue;
+    width: 200px;
+}
+
+.banner {
+    width: 800px;
+    background-color: rgba(100, 100, 100, 0.2);
+    height: full;
+}
+.footer {
+    background-color: yellow;
+    height: 50px;
+}
+
+.main {
+    height: 500px;
+    display: flex;
+}
+
+.article {
+    width: 500px;
+    background-color: rgba(100, 100, 100, 0.1);
+}
+
+.aside {
+    width: 200px;
+}
